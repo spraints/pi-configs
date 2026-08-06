@@ -1,0 +1,7 @@
+{
+  "lastChangelogVersion": "0.82.1",
+  "theme": "dark",
+  "defaultProvider": "fireworks",
+  "defaultModel": "accounts/fireworks/models/glm-5p2",
+  "defaultThinkingLevel": "medium"
+}
