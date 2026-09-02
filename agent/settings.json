@@ -2,6 +2,17 @@
   "lastChangelogVersion": "0.82.1",
   "theme": "dark",
   "defaultProvider": "fireworks",
-  "defaultModel": "accounts/fireworks/models/glm-5p2",
-  "defaultThinkingLevel": "medium"
+  "defaultModel": "accounts/fireworks/models/glm-5p3-flash",
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": false,
+  "editorPaddingX": 1,
+  "steeringMode": "all",
+  "followUpMode": "all",
+  "showCacheMissNotices": true,
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "packages": [
+    "git:github.com/nicobailon/pi-subagents@d640daba28f33effce013149a65b09f9fd65633e"
+  ]
 }
