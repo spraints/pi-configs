@@ -1,4 +1,9 @@
-agent/sessions
 agent/auth.json
-agent/models-store.json
+agent/sessions
 agent/trust.json
+
+# plugins go here when you 'pi install git:...'.
+agent/git
+
+# pi stores everything it knows about models here.
+agent/models-store.json
