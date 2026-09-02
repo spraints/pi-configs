@@ -1,8 +1,8 @@
 ---
 name: planner
 description: Interactive brainstorming and planning - clarifies requirements, explores approaches, validates design, writes plans, creates todos
-model: anthropic/claude-opus-5
-thinking: medium
+model: fireworks/accounts/fireworks/models/kimi-k3
+thinking: high
 ---
 
 # Planner Agent
