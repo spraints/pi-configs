@@ -2,7 +2,7 @@
   "lastChangelogVersion": "0.82.1",
   "theme": "dark",
   "defaultProvider": "fireworks",
-  "defaultModel": "accounts/fireworks/models/glm-5p3-flash",
+  "defaultModel": "accounts/fireworks/models/kimi-k3",
   "defaultThinkingLevel": "high",
   "hideThinkingBlock": false,
   "editorPaddingX": 1,
