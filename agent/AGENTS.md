@@ -1,5 +1,17 @@
 # Global Instructions
 
+## Subagents: stop if an agent's specified model is missing
+
+Each subagent definition in `~/.pi/agent/agents/` names a specific model. If
+that model is missing from the registry (or fails to resolve) when you go to
+launch the agent:
+
+- **Stop and tell the user.** Do not silently substitute another model, and
+  do not retry with a model override on your own initiative.
+- Report which agent and which model failed, and what similar models are
+  available, so the user can decide how to proceed.
+- Only use a different model if the user explicitly approves the substitute.
+
 ## Verification: always run `smoke` before committing
 
 `smoke` is a command on PATH that runs this repository's selected checks. Use it
