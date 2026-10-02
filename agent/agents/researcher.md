@@ -2,7 +2,7 @@
 name: researcher
 description: Deep research on a topic using web search and fetch — produces a structured findings report
 tools: read, bash, write, webfetch, websearch
-model: fireworks/accounts/fireworks/models/glm-5p2
+model: fireworks/accounts/fireworks/routers/glm-latest
 thinking: high
 spawning: false
 auto-exit: true
