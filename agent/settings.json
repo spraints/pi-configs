@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.82.1",
+  "lastChangelogVersion": "1.0.2",
   "theme": "dark",
   "defaultProvider": "fireworks",
   "defaultModel": "accounts/fireworks/models/kimi-k3",
@@ -13,7 +13,7 @@
     "showTerminalProgress": true
   },
   "packages": [
-    "git:github.com/nicobailon/pi-subagents@d640daba28f33effce013149a65b09f9fd65633e",
+    "git:github.com/nicobailon/pi-subagents@fece3cea193f47593685668b3969167a09cdf60c",
     "./packages/todos"
   ]
 }

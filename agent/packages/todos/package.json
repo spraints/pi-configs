@@ -12,8 +12,8 @@
     "fmt:check": "oxfmt index.ts --check",
     "lint": "oxlint index.ts"
   },
-  "dependencies": {
-    "typebox": "catalog:"
+  "peerDependencies": {
+    "typebox": "*"
   },
   "pi": {
     "extensions": [
