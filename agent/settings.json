@@ -13,7 +13,7 @@
     "showTerminalProgress": true
   },
   "packages": [
-    "git:github.com/nicobailon/pi-subagents@fece3cea193f47593685668b3969167a09cdf60c",
+    "git:github.com/nicobailon/pi-subagents@7d072b91dca7e1aa915282f0159cec0175d65efa",
     "./packages/todos"
   ]
 }
