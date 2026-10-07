@@ -7,9 +7,6 @@ thinking: max
 systemPromptMode: replace
 inheritProjectContext: false
 inheritSkills: false
-deny-tools: claude
-spawning: false
-auto-exit: true
 ---
 
 # Worker Agent
