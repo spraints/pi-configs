@@ -67,7 +67,10 @@ The command/message appears in the conversation as a user message.`,
       // Auto-execute slash commands via sendUserMessage
       else if (command.startsWith("/")) {
         setTimeout(() => {
-          pi.sendUserMessage(command);
+          // deliverAs covers the pi >=1.2.0 case where a queued message has
+          // already started a new run inside this 100ms window (sendUserMessage
+          // without deliverAs throws while the session is busy).
+          pi.sendUserMessage(command, { deliverAs: "followUp" });
         }, 100);
       }
       // For non-command text, prefill editor and notify
