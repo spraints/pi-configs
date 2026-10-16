@@ -2,7 +2,7 @@
 name: researcher
 description: Deep research on a topic using web search and fetch — produces a structured findings report
 tools: read, bash, write, web_search, fetch_content, get_search_content, source_check
-model: fireworks/accounts/fireworks/routers/glm-latest
+model: anthropic/claude-opus-5-5
 thinking: high
 ---
 

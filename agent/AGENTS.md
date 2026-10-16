@@ -12,6 +12,21 @@ launch the agent:
   available, so the user can decide how to proceed.
 - Only use a different model if the user explicitly approves the substitute.
 
+## Subagents: planner model preference
+
+When launching the `planner` subagent (`~/.pi/agent/agents/planner.md`), prefer
+`anthropic/claude-opus-5-5` over the frontmatter default
+(`fireworks/accounts/fireworks/models/kimi-k3`):
+
+- Before launching, check whether `anthropic/claude-opus-5-5` resolves in the
+  model registry and the anthropic provider is ready (`pi auth check --provider anthropic`).
+- If available, launch the planner with a per-run model override, e.g.
+  `planner[model=anthropic/claude-opus-5-5]`.
+- If it does not resolve or the provider is not ready, fall back to the
+  frontmatter default (kimi-k3) without asking.
+- Do not edit `planner.md`'s frontmatter to pin opus-5-5; the per-run override
+  keeps kimi-k3 as the fallback for launches that don't go through this check.
+
 ## Verification: always run `smoke` before committing
 
 `smoke` is a command on PATH that runs this repository's selected checks. Use it
