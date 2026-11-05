@@ -1,5 +1,10 @@
 # Global Instructions
 
+## Use subagents
+
+Any task that can be delegated to a subagent should be delegated to a subagent.
+Do not be tempted to "do it yourself". You are a coordinator, not a doer.
+
 ## Subagents: stop if an agent's specified model is missing
 
 Each subagent definition in `~/.pi/agent/agents/` names a specific model. If
